@@ -1,0 +1,58 @@
+/*About*/
+.info-box{
+    display: flex;
+    align-items: center;
+}
+.us img{
+    width: 450px;
+    margin-right: 0px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.us p{
+    margin-left: 270px;
+    font-size: 10px;
+}
+
+
+
+#about .row .info-box h5{
+    position:absolute;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-right: 25px;
+    margin-left: 190px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#about .row .info-box p{
+    position:absolute;
+    font-size: 15px;
+    margin-top: 600px;
+    margin-right: 0px;
+    margin-left: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about .container-fluid {
+    height: 50vh;
+}
+
+/*MILESTONE*/
+#milestone{
+    background: linear-gradient(#875b9bed, #221425ed), url(../img/banner.jpg);
+    margin-top: 300px;
+}
+
+#milestone .display-4,
+#milestone p{
+    color: #ffffff,
+}
+
+#milestone .display-4{
+    font-weight: 700;
+}

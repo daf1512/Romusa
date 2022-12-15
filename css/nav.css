@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Clicker+Script&family=Poppins:wght@200;300;400;500;600&display=swap');
+
+body{
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+    color:#092032;
+}
+
+a{
+    color: #092032;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500
+}
+
+img{
+    width: 100%;
+}
+
+/*Navbar*/
+.navbar {
+    display: flex;
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:10vh;
+    padding: 15px;
+    background-color: white;
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active{
+    color: #2810a1ed;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;
+}
+
+.navbar-brand span{
+    color: #2810a1ed;
+}
+
+/*BTN*/
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand{
+    background-color: #2810a1ed;
+    color: #ffffff;
+    border-color: #0b013eed;
+}
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: #0b013eed;
+}

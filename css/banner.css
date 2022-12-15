@@ -1,0 +1,86 @@
+/*slider*/
+
+img{
+    position :relative;
+    z-index: 1;
+    top: 0px;
+}
+.text{
+    position:absolute;
+    top: 140px;
+    left: 450px;
+    z-index: 2;
+    align-items: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.slide1 .row a{
+    background-color: rgba(105, 38, 91, 0.653);
+    
+}
+
+/*klo mau kasih warna bening di depan gambar pakenya rgba(...,...,..., 0. )*/
+/*lah tp malah nutupin tombol*/
+/*.slide1 :after{
+    content:'';
+    display: block;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(65, 4, 77, 0.2);
+}*/
+
+
+.slide1 {
+    height: 60vh;
+    position: relative;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+
+}
+
+.slide1 a{
+    background-color: rgba(159, 62, 178, 0.2);
+    border: rgba(159, 62, 178, 0.2);
+}
+
+/* ni buat klo gambar bannernya diletakkan di html
+.slide1 .img{
+    width: 0px;
+    height: 400px;
+}*/
+
+
+
+/*owl carousel*/
+.owl-prev,
+.owl-next{
+    position:absolute;
+    top: 50%;
+    width: 60px !important;
+    height:60px !important;
+    display:grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    margin-top: -30px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 12px !important;
+    border-radius: 100px !important;
+}
+.owl-prev{
+    left: 0;
+}
+
+.owl-next{
+    right: 0;
+}
+
+.owl-next:hover,
+.owl-prev:hover{
+    background-color: rgba(15, 18, 39, 0.7) !important;
+}
